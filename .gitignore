@@ -1,4 +1,5 @@
-/Linguo_webApp/venv/dataSources.local.xml
+/Linguo_webApp/venv
+dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
 # Default ignored files
