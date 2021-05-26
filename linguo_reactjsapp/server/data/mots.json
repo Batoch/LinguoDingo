@@ -1,0 +1,17 @@
+{
+    "mots": [{
+        "Francais" : "Nonagone",
+        "Anglais" : "Nonagon",
+        "Def" : "Une figure plane avec neuf côtés et neuf angles."
+    },
+    {
+        "Francais" : "Ombilic",
+        "Anglais" : "Umbilicus",
+        "Def" : "Nombril"
+    },
+    {
+        "Francais" : "Cathartique  ",
+        "Anglais" : "Cathartic",
+        "Def" : "Qui purifie, libère des éléments considérés comme impurs"
+    }]
+}
