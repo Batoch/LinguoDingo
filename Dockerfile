@@ -1,8 +1,9 @@
 FROM node:14
 WORKDIR /usr/src/app
-COPY . .
-RUN npm install --quiet
+COPY package*.json ./
+COPY linguo_reactjsapp .
 RUN ls
+RUN npm install --quiet
 RUN npm run build
 EXPOSE 80
 CMD [ "npm", "start" ]
