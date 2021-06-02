@@ -4,11 +4,16 @@ on:
   push:
     # Publish `main` as Docker `latest` image.
     branches:
-      - docker
-
+      - main
     # Publish `v1.2.3` tags as releases.
     tags:
       - v*
+  workflow_dispatch:
+    inputs:
+        logLevel:
+            description: 'Log level'     
+            required: true
+            default: 'warning'
 
   # Run tests for any PRs.
   pull_request:
