@@ -6,3 +6,4 @@ dataSources.local.xml
 /shelf/
 /workspace.xml
 .idea
+/node_modules
