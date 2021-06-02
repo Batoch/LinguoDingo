@@ -8,7 +8,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "cd linguo_reactjsapp/client && npm run build",
     "start": "cd linguo_reactjsapp/server && npm start"
-    },
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Batoch/LinguoDingo.git"
