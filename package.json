@@ -1,0 +1,25 @@
+{
+  "name": "linguodingo",
+  "version": "1.0.0",
+  "description": "Application a but lucratif pour apprendre des mots inutiles en anglais",
+  "scripts": {
+    "client": "cd linguo_reactjsapp/client && serve -s build",
+    "server": "cd linguo_reactjsapp/server && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd linguo_reactjsapp/client && npm run build",
+    "start": "cd linguo_reactjsapp/server && npm start"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Batoch/LinguoDingo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Batoch/LinguoDingo/issues"
+  },
+  "homepage": "https://github.com/Batoch/LinguoDingo#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
