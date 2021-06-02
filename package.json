@@ -19,6 +19,12 @@
     "url": "https://github.com/Batoch/LinguoDingo/issues"
   },
   "homepage": "https://github.com/Batoch/LinguoDingo#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^2.0.0"
+  },
   "devDependencies": {
     "concurrently": "^6.2.0"
   }
