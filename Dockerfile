@@ -3,6 +3,6 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install --quiet
 RUN npm run build
-COPY ./linguo_reactjsapp ./linguo_reactjsapp
+COPY . .
 EXPOSE 80
 CMD [ "npm", "start" ]
