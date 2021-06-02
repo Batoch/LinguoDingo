@@ -1,4 +1,4 @@
-name: '[builder] Dockerhub'
+name: '[Builder] Dockerhub'
 
 on:
     push:
