@@ -15,9 +15,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Anglais: {!data ? "Loading..." : data.Anglais}</p>
-        <p>Francais: {!data ? "Loading..." : data.Francais}</p>
-        <p>{!data ? "Loading..." : data.Def}</p>
+        <p>Anglais: {!data ? "Loading..." : data.en}</p>
+        <p>Francais: {!data ? "Loading..." : data.fr}</p>
+        <p>{!data ? "Loading..." : data.def.en}</p>
+        <p>{!data ? "Loading..." : data.def.fr}</p>
       </header>
     </div>
   );
