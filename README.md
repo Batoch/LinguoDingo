@@ -1,3 +1,3 @@
 # LinguoDingo
 
-Application a but lucratif pour apprendre des mots inutiles en anglais
+JS app that uses a dictionnary and a translation API to display random words in english, translate and define them.
